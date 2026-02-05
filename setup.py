@@ -14,7 +14,7 @@ if readme_file.exists():
 
 setup(
     name="bugbounty-ksp-api-client",
-    version="1.0.0",
+    version="1.0.1",
     author="BugBountyKE-KSP Team -- Theoriest",
     author_email="mawiralee02@gmail.com",
     description="Official Python SDK for BugBountyKE-KSP platform API",
@@ -23,7 +23,7 @@ setup(
     url="https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client",
     project_urls={
         "Bug Tracker": "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client/issues",
-        "Documentation": "https://docs.bugbounty-ksp.com/api",
+        "Documentation": "https://bugbounty-mockingbird.github.io/Documentation/python-sdk/",
         "Source Code": "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client",
     },
     packages=find_packages("src"),

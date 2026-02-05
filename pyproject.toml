@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "bugbounty-ksp-api-client"
-version = "1.0.0"
+version = "1.0.1"
 description = "Official Python SDK for BugBountyKE-KSP platform API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -13,8 +13,6 @@ authors = [
     {name = "BugBountyKE-KSP Team", email = "mawiralee02@gmail.com"}
 ]
 keywords = ["bugbounty", "ksp", "api", "sdk"]
-repository = "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client"
-"bug-tracker" = "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client/issues"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -44,10 +42,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bugbounty-ksp/api-client-python"
-Documentation = "https://docs.bugbounty-ksp.com/api"
-Repository = "https://github.com/bugbounty-ksp/api-client-python.git"
-Issues = "https://github.com/bugbounty-ksp/api-client-python/issues"
+Homepage = "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client"
+Repository = "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client"
+"Bug Tracker" = "https://github.com/BugBounty-MockingBird/bugbounty-ksp-api-client/issues"
+Documentation = "https://bugbounty-mockingbird.github.io/Documentation/python-sdk/"
 
 [tool.black]
 line-length = 100
